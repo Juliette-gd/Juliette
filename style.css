@@ -1,0 +1,149 @@
+.navbar-brand img {
+	max-height: 40px
+}
+
+.bg-light{
+background-color: rgba(0, 0, 0, 1) !important;
+} 
+
+.navbar-light .navbar-nav .nav-link{
+color: rgba(255, 255, 255, 0.61);
+} 
+
+header .row{
+	min-height: 70vh;
+	background-image: url("Images/photo.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	align-items: center;
+	color: white;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+}
+
+header .formReservation{
+	background-color: rgba(0,0,0,0.5);
+	min-height: 70vh;
+	display:flex;
+	align-items: center;
+	font-family: 'Dancing Script', cursive;
+}
+
+header h1{
+	font-family: 'Berkshire Swash', cursive;
+}
+
+header h2{
+font-family: 'Berkshire Swash', cursive;
+}
+
+#presentation .media span{
+	color: #ffc107;
+	font-size: 3rem;
+	width: 4rem;
+	text-align: center;
+}
+
+#presentation .media{
+	padding: .5rem 1rem;
+	cursor: pointer;
+	border-radius: 3px;
+	transition: all .4s ease-in-out;
+}
+
+#presentation .media:hover{
+	background-color: yellow;
+}
+
+
+.fondPhoto{
+	min-height: calc(100vh - 50px);
+	background-image: url("Images/frederic.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.AvisFrederic{
+	min-height: calc(100vh - 50px);
+	background-color: #000000;
+}
+
+
+.AvisFrederic span{
+	font-size:5rem;
+	color: #f8f9fa;
+}
+
+.AvisFrederic h5{
+	font-size: 2rem;
+	color: #ffc107;
+}
+
+.AvisFrederic p{
+	color: #f8f9fa
+}
+
+
+.fondphoto2{
+	min-height: calc(100vh - 50px);
+	background-image: url("Images/restaurant.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.LaCarte{
+	min-height: calc(100vh - 50px);
+	background-color: #000000;
+}
+
+.LaCarte h5{
+	font-size: 2rem;
+	color: #ffc107;
+}
+
+.LaCarte{
+	color: #f8f9fa;
+}
+
+
+
+#reservation{
+	background-image: url(Images/reservation1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-height: (100vh 6 50px);
+}
+
+#reservation row{
+	min-height: (100vh 6 50px);
+}
+
+
+
+
+.formContact{
+	background-color: rgba(255,255,255,.7);
+	padding: 2rem 1rem;
+}
+
+footer{
+	background-color: #000000;
+	color: #ffc107;
+	padding-top: 2rem;
+	padding-bottom: 1.5rem;
+}
+
+
+footer a{
+	color: #999;
+	font-size: 2rem;
+	transition: all .2s ease-in-out;
+}
+
+footer a:hover{
+	color: #ffc107
+}
